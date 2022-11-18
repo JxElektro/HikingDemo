@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+}
+
+/* Nabvar dark mode  */
+
+.navBar{
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.navBarUl{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 30%; 
+}
+
+.navBarUl li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.navBarUl li a:hover{
+  color: green;
+  font-size: large;
+}
